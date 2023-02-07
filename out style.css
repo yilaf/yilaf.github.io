@@ -1,0 +1,81 @@
+@font-face{
+    font-family:'serto';
+    src:url('assets/fonts/serto.ttf');
+}
+
+*{
+    font-family:'serto';
+}
+
+body{
+    background-color:#B3E5FC;
+    margin:0;
+}
+    
+
+header{
+    background-color:#0277BD;
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+    }
+    
+    header a {
+      color:black;
+      text-decoration: none;
+    }
+
+input[type=submit]{
+
+   background-color:#0277BD;
+   
+    border-radius:5px;
+    color:white;   
+    margin:5px;
+    font-weight:bold;
+    width:150px;
+    
+}
+
+
+#container {
+
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
+
+}
+
+#buttons {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+
+.op{
+  opacity: 0;
+}
+
+.op.opac{
+  opacity:1;
+  transition: opacity 3s;
+}
+
+#important_img{
+    width:300px;
+    height:400px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+p{
+	font-size=25px;
+	font-weight:bold;
+}
+
+textarea{
+	width:500px;
+}

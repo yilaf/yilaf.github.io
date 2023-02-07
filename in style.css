@@ -1,0 +1,111 @@
+@font-face{
+    font-family:'serto';
+    src:url('assets/fonts/serto.ttf');
+}
+
+*{
+    font-family:'serto';
+}
+
+body{
+    background-color:#B3E5FC;
+    margin:0;
+}
+    
+
+header{
+    background-color:#0277BD;
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+    }
+    header a{
+      color:black;
+    }
+    
+button{
+    background-color:#0277BD;
+    color:white;
+    border-radius:5px;
+    width:100px;
+}
+
+img{
+    width:50px;
+    height:50px;
+    margin-right:10px;
+}
+
+.grid-container{
+display:grid;
+grid-template-columns:repeat(2, 1fr);
+grid-gap:10px;
+
+}
+
+
+.grid-item {
+       display: flex;
+        justify-content: center;        
+      }
+      
+     
+a{
+    text-decoration:none;
+}
+
+footer{
+display:flex;
+    height:50px;
+    background-color:#0277BD;
+    align-items:center;
+    justify-content:center;
+}
+
+footer a{
+    margin-left:10px;
+    margin-right:10px;
+    color:white;
+    
+    
+}
+
+nav{
+    background-color:#0277BD;
+}
+
+nav a{
+
+     margin:10px;
+    color:white;
+}
+
+#hidden_btn{
+	visibility:hidden;
+}
+
+
+textarea{
+	width:60px;
+	height: 20px;
+}
+
+#parent_div{
+	margin:15px;
+}
+
+#olaf_note{
+	background-color:#b5ffaa;
+}
+
+#vowel_marks_div{
+	display:grid; grid-template-columns:repeat(3, 1fr); grid-gap:10px;
+}
+
+#spin_id{
+	background-color:red;
+}
+
+#image_question{
+	width:70px; height:70px;
+}

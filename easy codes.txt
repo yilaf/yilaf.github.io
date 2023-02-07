@@ -1,0 +1,36 @@
+ <style>
+        #b2_1:hover{
+            background-color:green;
+        }
+        #b2_2:hover{
+            background-color:red;
+        }
+    </style>
+    
+    
+    
+    
+     <textarea id="t5" style="width:60px; height: 20px;"></textarea> <button onclick="f4()">تحققوا</button>
+       
+       <script>
+           function f4(){
+           if (document.getElementById('t5').value==('ܛܶܦ݂ܪܳܐ')) alert ('مذهل 😇')
+           else alert ('لا ضير من المحاول مجدداً 😌')
+           }
+       </script>
+    
+    
+    
+    <textarea id="t1" style="width:60px; height: 20px;"></textarea>
+    <p>و من مفرادفاتها</p>
+    <textarea id="t2" style="width:60px; height: 20px;"></textarea> <button onclick="f1()">تحققوا</button>
+    
+    <script>
+        function f1(){
+            if (document.getElementById('t1').value==('ܘܰܪܕܳܐ') && document.getElementById('t2').value==('ܗܰܒܳܒ݂ܳܐ')) alert ('أحسنتم 😍')
+            else alert('تحققوا من إجاباتكم و حاولوا مجدداً 🥰')
+        }
+    </script>
+    
+    
+    

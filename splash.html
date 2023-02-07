@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>مرحباً مع ييلاف</title>
+  
+  <link rel="stylesheet" href="out style.css">
+  
+  
+  
+</head>
+
+<body onload="mkvis(); opa(); redirect();">
+
+<header>Yilaf</header>
+  
+<div id="container" align="center">
+  
+  <div id="buttons">
+    
+  <div class="op">
+  <img src="assets/images/splash/sego_splash.png" style="width:150px; height;150px;">
+  </div>
+  <p id="SegoText" style="font-size:10px; font-weight:bold;">ܝܺܠܰܦ݂ ܠܶܫܳܢܳܐ ܣܽܘܪܝܳܝܳܐ <br /> تعلم اللغة السريانية مباشرة من خلال هاتفك <br /> By: SegoWeb</p>
+</div>
+
+</div>
+
+</div>
+
+
+<script>
+  function opa(){
+    document.querySelector('.op').classList.toggle('opac');
+  }
+  
+  document.getElementById('SegoText').style.visibility='hidden';
+  
+  function mkvis(){
+ setTimeout(vi,2000);
+  }
+  function vi(){
+    document.getElementById('SegoText').style.visibility='visible';
+  }
+  
+  function redirect(){
+    setTimeout(rd,4000);
+  }
+  function rd(){
+    document.location.href='home.html';
+  }
+</script>
+  
+</body>
+
+</html>
